@@ -1,5 +1,9 @@
 ## Unit 4 - Models
 
+#### Download the starter: [unit4_starter.zip](https://github.com/CodePath-at-UCI/ios-course/raw/master/Unit4/unit4_starter.zip)
+
+#### Instructions 
+
 1. Create model for Movie  
     - New swift file "Movie.swift" in Models folder  
     - Add the following to the new file:
