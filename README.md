@@ -10,3 +10,13 @@ iOS Course Material for CodePath at UCI
 
 ### Unit 0: Pre-work
 - [Pre-work](https://courses.codepath.org/snippets/ios_university/prework)
+
+### Unit 1: Xcode Overview and TableViews
+
+### Unit 2: Segues
+
+### Unit 3: AutoLayout and Constraints
+
+### Unit 4: Models and Enums
+
+### Unit 5: Parse Server
