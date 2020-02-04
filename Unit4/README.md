@@ -67,8 +67,9 @@
             case MovieCell, MovieGridCell
         }
         ```
-    - Implement it in MovieGridViewController (line 45: `Cell.MovieGridCell.rawValue`
- and MoviesViewController (line 40: `Cell.MovieCell.rawValue`)
+    - Implement them in the following places
+        - MoviesViewController line 40: `Cell.MovieCell.rawValue`
+        - MovieGridViewController line 45: `Cell.MovieGridCell.rawValue`
 
 7. Create an enum in "Enums.swift" for URLs
     - Add the following to "Enums.swift":
