@@ -1,4 +1,8 @@
-## Unit 4 - Models
+## Unit 4 - Models and Enums
+
+#### Download the starter: [unit4_starter.zip](https://github.com/CodePath-at-UCI/ios-course/raw/master/Unit4/unit4_starter.zip)
+
+#### Instructions 
 
 1. Create model for Movie  
     - New swift file "Movie.swift" in Models folder  
@@ -63,8 +67,9 @@
             case MovieCell, MovieGridCell
         }
         ```
-    - Implement it in MovieGridViewController (line 45: `Cell.MovieGridCell.rawValue`
- and MoviesViewController (line 40: `Cell.MovieCell.rawValue`)
+    - Implement them in the following places
+        - MoviesViewController line 40: `Cell.MovieCell.rawValue`
+        - MovieGridViewController line 45: `Cell.MovieGridCell.rawValue`
 
 7. Create an enum in "Enums.swift" for URLs
     - Add the following to "Enums.swift":
@@ -82,6 +87,5 @@
         - APICaller line 35: `MovieBaseURL.Poster.rawValue`
         - APICaller line 40: `MovieBaseURL.Backdrop.rawValue`
 
-Bonus (if you have extra time):  
-    - let the students spend the remaining time updating their Twitter assignment to use models instead of JSON
-
+8. Bonus (if you have extra time):
+    - Let the students spend the remaining time updating their Twitter assignment to use models instead of JSON
