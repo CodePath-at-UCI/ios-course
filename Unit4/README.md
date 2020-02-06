@@ -43,7 +43,7 @@
             movies.append(movie)
         }
         ```
-    - Change line 53 to `return completion(results)`
+    - Change line 53 to `return completion(movies)`
     - Change line 9 from `@escaping ([[String: Any]])` to `@escaping ([Movie])`
 
 3. Update MovieViewController to use the new movie model instead of the JSON
