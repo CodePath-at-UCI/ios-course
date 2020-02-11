@@ -1,0 +1,22 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+
+DEPENDENCIES:
+  - Parse
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Parse
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+
+PODFILE CHECKSUM: 2df331eedcd53ce2ba29e1605cb6e9fa006c9cb0
+
+COCOAPODS: 1.5.3
