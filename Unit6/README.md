@@ -1,4 +1,5 @@
-# Milestone 1: Get comfortable with the starter files
+# Unit 6 - Photo Map
+## Milestone 1: Get comfortable with the starter files
 
 - **PhotoMapViewController**
     - Contains the MapView object
@@ -13,7 +14,7 @@
     - Bonus Feature
     - Adding a fullscreen image
 
-# Milestone 2: Setup MapKit
+## Milestone 2: Setup MapKit
 
 1. Drag a MapKit object onto the PhotoMapVC + Drag to **ALL** corners
     - **DO NOT** apply constraints with constraints button
@@ -22,9 +23,10 @@
 
             ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f5f3958-b615-430d-94cd-89324413bd6b/Screen_Shot_2020-02-17_at_1.52.29_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f5f3958-b615-430d-94cd-89324413bd6b/Screen_Shot_2020-02-17_at_1.52.29_PM.png)
 
-2. Hide the top navigation bar (modern look) - viewDidLoad() in PhotoMapVC
-
-        navigationController?.navigationBar.isHidden = true
+2. Hide the top navigation bar (modern look) - viewDidLoad() in PhotoMapVC  
+    ```Swift
+    navigationController?.navigationBar.isHidden = true
+    ```
 
 3. Add Photo Button
     - Constraints
@@ -33,6 +35,7 @@
 
     - Create outlet to PhotoMapVC + Adjust button corner radius
 
+        ```Swift
         override func viewDidLoad() {
         	super.viewDidLoad()
                 
@@ -41,9 +44,10 @@
           photoButton.layer.cornerRadius = 45.0
         	//cornerRadius = Height / 2 , assuming square dimensions
         }
+        ```
 
-4. Set Initial Visible Region around UCI instead of San Francisco
-
+4. Set Initial Visible Region around UCI instead of San Francisco  
+    ```Swift
         func setInitialLocation(){
             //UCI latitude & longitude
             let mapCenter = CLLocationCoordinate2D(latitude: 33.6405, longitude: -117.8443)
@@ -56,21 +60,24 @@
             // Set animated property to true to animate the transition to the region
             self.mapView.setRegion(region, animated: true)
          }
+    ```
 
 5. Call setInitialLocation() in viewDidLoad() of PhotoMapVC
 
+    ```Swift
         override func viewDidLoad() {
-                super.viewDidLoad()
+            super.viewDidLoad()
                 
-                navigationController?.navigationBar.isHidden = true
+            navigationController?.navigationBar.isHidden = true
                 
-                photoButton.layer.cornerRadius = 45.0
+            photoButton.layer.cornerRadius = 45.0
                 
-                setInitialLocation()
-            }
+            setInitialLocation()            
+        }
+     ```
 
     - EXTRA ANIMATION: Zooms into region instead of loading on region
-
+        ```Swift
         override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -82,8 +89,9 @@
                 self.setInitialLocation()
             }
         }
+        ```
 
-# Milestone 3: Configure Photo Button
+## Milestone 3: Configure Photo Button
 
 1. Create modal segue from PhotoMapVC to LocationsVC
 2. Set identifier of modal segue to 'tagSegue'
@@ -97,7 +105,7 @@
 
         func fetchLocations(_ query: String, near: String = "Irvine"
 
-# Milestone 4: Drop a Pin on the map
+## Milestone 4: Drop a Pin on the map
 
 1. Add Protocol to the LocationsVC
 
@@ -161,7 +169,7 @@
             locationViewController.delegate = self
         }
 
-# Milestone 5: Customize the annotations!
+## Milestone 5: Customize the annotations!
 
 1. Set mapView delegate in PhotoMapVC ViewDidLoad()
 
