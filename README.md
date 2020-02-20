@@ -20,3 +20,5 @@ iOS Course Material for CodePath at UCI
 ### Unit 4: Models and Enums
 
 ### Unit 5: Parse Server
+
+### Unit 6: MapKit
