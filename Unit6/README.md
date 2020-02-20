@@ -113,7 +113,7 @@
 1. Add Protocol to the LocationsVC to communicate with PhotoMapViewController
     ```Swift
     protocol LocationsViewControllerDelegate: class {
-        func LocationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber)
+        func locationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber)
     }
     ```
 
@@ -125,7 +125,7 @@
 3. PhotoMapVC inherits from the LocationsVCDelegate
     ```Swift
     class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MKMapViewDelegate, LocationsViewControllerDelegate {
-        func LocationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber) {
+        func locationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber) {
         <#code#>
     }
     ```
@@ -150,7 +150,7 @@
 5. Add the 'addPin' function to the 'locationsPickedLocation'
     ```Swift
     /* ----- TODO: Retrieve coordinates from LocationsViewController   */
-    func LocationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber) {
+    func locationsPickedLocation(controller: LocationsViewController, latitude: NSNumber, longitude: NSNumber) {
         
         addPin(lat: CLLocationDegrees(latitude), lng: CLLocationDegrees(longitude))
         	
