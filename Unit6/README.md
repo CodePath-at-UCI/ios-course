@@ -1,5 +1,9 @@
 # Unit 6 - Photo Map
-## Milestone 1: Get comfortable with the starter files
+
+#### Download the starter: [unit6_starter.zip](https://github.com/CodePath-at-UCI/ios-course/raw/master/Unit6/unit6_starter.zip)
+
+## Instructions
+### Milestone 1: Get comfortable with the starter files
 
 - **PhotoMapViewController**
     - Contains the MapView object
@@ -14,7 +18,7 @@
     - Bonus Feature
     - Adding a fullscreen image
 
-## Milestone 2: Setup MapKit
+### Milestone 2: Setup MapKit
 
 1. Drag a MapKit object onto the PhotoMapVC + Drag to **ALL** corners
     - **DO NOT** apply constraints with constraints button
@@ -92,7 +96,7 @@
         }
         ```
 
-## Milestone 3: Configure Photo Button
+### Milestone 3: Configure Photo Button
 
 1. Create modal segue from PhotoMapVC to LocationsVC
 2. Set identifier of modal segue to 'tagSegue'
@@ -108,7 +112,7 @@
    func fetchLocations(_ query: String, near: String = "Irvine"
    ```
 
-## Milestone 4: Drop a Pin on the map
+### Milestone 4: Drop a Pin on the map
 
 1. Add Protocol to the LocationsVC to communicate with PhotoMapViewController
     ```Swift
@@ -175,7 +179,7 @@
     }
     ```
 
-## Milestone 5: Customize the annotations!
+### Milestone 5: Customize the annotations!
 
 1. Set mapView delegate in PhotoMapVC ViewDidLoad()
     ```Swift
