@@ -47,7 +47,7 @@
         }
          ```
 
-4. Set Initial Visible Region around UCI instead of San Francisco  
+4. Set Initial Visible Region around UCI  
     ```Swift
     func setInitialLocation(){
         //UCI latitude & longitude
