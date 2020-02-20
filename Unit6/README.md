@@ -103,7 +103,7 @@
     }
     ```
 
-4. Change parameter of Query to 'Irvine' instead of 'San Francisco'  
+4. Change default argument in fetchLocations() to 'Irvine' instead of 'San Francisco' (in LocationsVC)  
    ```Swift
    func fetchLocations(_ query: String, near: String = "Irvine"
    ```
