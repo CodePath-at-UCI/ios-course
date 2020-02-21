@@ -23,9 +23,8 @@
 1. Drag a MapKit object onto the PhotoMapVC + Drag to **ALL** corners
     - **DO NOT** apply constraints with constraints button
     - Control Drag: 'Map View' → 'View'
-        - While holding shift, select four constraints
-
-            ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f5f3958-b615-430d-94cd-89324413bd6b/Screen_Shot_2020-02-17_at_1.52.29_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f5f3958-b615-430d-94cd-89324413bd6b/Screen_Shot_2020-02-17_at_1.52.29_PM.png)
+        - While holding shift, select four constraints  
+    - Create an outlet
 
 2. Hide the top navigation bar (modern look) - viewDidLoad() in PhotoMapVC. Notice that PhotoMapVC is a subclass of UINavigationControllerDelegate  
     ```Swift
@@ -33,10 +32,11 @@
     ```
 
 3. Add Photo Button
-    - Constraints
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d846ebd-0887-451f-bf5b-88af136e7c8e/Screen_Shot_2020-02-17_at_6.07.57_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d846ebd-0887-451f-bf5b-88af136e7c8e/Screen_Shot_2020-02-17_at_6.07.57_PM.png)
-
+    - Constraints  
+        - Align Center X to: Superview
+        - Width = 90
+        - Height = 90
+        - Bottom Space to: Bottom Guide, Equals: 20
     - Change the background color to white
     - Create outlet to PhotoMapVC + Adjust button corner radius
 
