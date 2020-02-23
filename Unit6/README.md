@@ -2,6 +2,9 @@
 
 #### Download the starter: [unit6_starter.zip](https://github.com/CodePath-at-UCI/ios-course/raw/master/Unit6/unit6_starter.zip)
 
+In this lab, we are building a simple Photo Maps app. This will allow the user to take a photo and add it somewhere on the map!  
+![Gif of completed Photo Map](https://raw.githubusercontent.com/CodePath-at-UCI/ios-course/master/Unit6/src/unit6_completed/walkthrough.gif)
+
 ## Instructions
 ### Milestone 1: Get comfortable with the starter files
 
