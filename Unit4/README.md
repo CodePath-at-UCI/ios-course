@@ -2,7 +2,9 @@
 
 #### Download the starter: [unit4_starter.zip](https://github.com/CodePath-at-UCI/ios-course/raw/master/Unit4/unit4_starter.zip)
 
-#### Instructions 
+Models and enums are a important part of iOS Development when writing clean and organized code. In this lab, we'll take a look at some of the ways in which we can use models and enums to make our code cleaner, safer, and easier to write.
+
+## Instructions 
 
 1. Create model for Movie  
     - New swift file "Movie.swift" in Models folder  
