@@ -6,28 +6,32 @@ In this lab, we are building a simple Photo Maps app. This will allow the user t
 ![Gif of completed Photo Map](https://raw.githubusercontent.com/CodePath-at-UCI/ios-course/master/Unit6/src/unit6_completed/walkthrough.gif)
 
 ## Instructions
-### Milestone 1: Get comfortable with the starter files
+#### Milestone 1: Get comfortable with the starter files
 
-- **PhotoMapViewController**
+- [`PhotoMapViewController`](https://github.com/CodePath-at-UCI/ios-course/blob/master/Unit6/src/unit6_starter/Photo%20Map/PhotoMapViewController.swift)
     - Contains the MapView object
     - Configures the annotations(or pins)
     - Contains Image Picker methods
-- **LocationsViewController**
+- [`LocationsViewController`](https://github.com/CodePath-at-UCI/ios-course/blob/master/Unit6/src/unit6_starter/Photo%20Map/LocationsViewController.swift)
     - Queries data from *FourSquare API*
         - Triggered by tapping on the search bar and calling the 'fetchLocations' method
         - Given city → returns JSON of places in that city + descriptions
     - Contains Tableview of data queried from the FourSquare API
-- **FullImageViewController**
+- [`FullImageViewController`](https://github.com/CodePath-at-UCI/ios-course/blob/master/Unit6/src/unit6_starter/Photo%20Map/FullImageViewController.swift)
     - Bonus Feature
     - Adding a fullscreen image
 
-### Milestone 2: Setup MapKit
+#### Milestone 2: Setup MapKit
 
-1. Drag a MapKit object onto the PhotoMapVC + Drag to **ALL** corners
+1. Drag a MapKit object onto the PhotoMapVC + Drag to *ALL* corners
     - **DO NOT** apply constraints with constraints button
     - Control Drag: 'Map View' → 'View'
-        - While holding shift, select four constraints  
-    - Create an outlet
+        - While holding shift, select four constraints:
+            - *Leading Space to Container*
+            - *Vertical Spacing to Top Layout Guide*
+            - *Trailing Space to Container*
+            - *Vertical Spacing to Bottom Layout Guide*
+    - Create the outlet `mapView` in PhotoMapVC
 
 2. Hide the top navigation bar (modern look) - viewDidLoad() in PhotoMapVC. Notice that PhotoMapVC is a subclass of UINavigationControllerDelegate  
     ```Swift
@@ -99,7 +103,7 @@ In this lab, we are building a simple Photo Maps app. This will allow the user t
         }
         ```
 
-### Milestone 3: Configure Photo Button
+#### Milestone 3: Configure Photo Button
 
 1. Create modal segue from PhotoMapVC to LocationsVC
 2. Set identifier of modal segue to 'tagSegue'
@@ -115,7 +119,7 @@ In this lab, we are building a simple Photo Maps app. This will allow the user t
    func fetchLocations(_ query: String, near: String = "Irvine"
    ```
 
-### Milestone 4: Drop a Pin on the map
+#### Milestone 4: Drop a Pin on the map
 
 1. Add Protocol to the LocationsVC to communicate with PhotoMapViewController
     ```Swift
@@ -182,7 +186,7 @@ In this lab, we are building a simple Photo Maps app. This will allow the user t
     }
     ```
 
-### Milestone 5: Customize the annotations!
+#### Milestone 5: Customize the annotations!
 
 1. Set mapView delegate in PhotoMapVC ViewDidLoad()
     ```Swift
