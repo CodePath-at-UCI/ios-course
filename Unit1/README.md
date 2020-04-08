@@ -1,6 +1,5 @@
 ---
 title: 'Spring 2020 - Unit 1 Lab Readme'
-disqus: hackmd
 ---
 
 Unit 1 - Lab
