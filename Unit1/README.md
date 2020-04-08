@@ -1,7 +1,3 @@
----
-title: 'Spring 2020 - Unit 1 Lab Readme'
----
-
 Unit 1 - Lab
 ===
 
