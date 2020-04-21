@@ -1,4 +1,4 @@
-[delete later]: google doc notes - [https://docs.google.com/document/d/1kPTrPqa1PCwOsh5LB9BK7zECNkvQzEUiomMgNhPjDGc/edit?usp=sharing](https://docs.google.com/document/d/1kPTrPqa1PCwOsh5LB9BK7zECNkvQzEUiomMgNhPjDGc/edit?usp=sharing)
+
 
 ### Guide for adding constraints onto Flix app: MoviesViewController  and MovieDetailsViewController
 
