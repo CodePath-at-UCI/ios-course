@@ -20,7 +20,7 @@ Lectures are to be held on zoom at 5PM every Tuesday [at this link](https://uci.
 * [Click here to get started](https://courses.codepath.org/snippets/ios_university/prework)
 
 ### Unit 1: Intro to Xcode and Tableviews
-
+Topics: Brief Introduction of Xcode Ecosystem
 * [Click here to get started](https://github.com/CodePath-at-UCI/ios-course/tree/master/Unit1)
 
 ### Unit 2: Tumblr Pt. 2
