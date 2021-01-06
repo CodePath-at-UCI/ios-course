@@ -1,0 +1,872 @@
+
+["businesses": <__NSArrayI 0x600002bec160>(
+{
+    alias = "amsterdam-caf\U00e9-san-francisco-2";
+    categories =     (
+                {
+            alias = "breakfast_brunch";
+            title = "Breakfast & Brunch";
+        },
+                {
+            alias = beerbar;
+            title = "Beer Bar";
+        }
+    );
+    coordinates =     {
+        latitude = "37.78625";
+        longitude = "-122.41857";
+    };
+    "display_phone" = "(415) 529-1527";
+    id = 25KGeqGCQ2NGUT6217hF8Q;
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/sTfa9mQEAZeSpWjXKmNzSQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "930 Geary St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "930 Geary St",
+            "San Francisco, CA 94109"
+        );
+        state = CA;
+        "zip_code" = 94109;
+    };
+    name = "Amsterdam Caf\U00e9";
+    phone = "+14155291527";
+    price = "$";
+    rating = "4.5";
+    "review_count" = 189;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/amsterdam-caf%C3%A9-san-francisco-2?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "palmyra-san-francisco";
+    categories =     (
+                {
+            alias = mediterranean;
+            title = Mediterranean;
+        },
+                {
+            alias = mideastern;
+            title = "Middle Eastern";
+        },
+                {
+            alias = syrian;
+            title = Syrian;
+        }
+    );
+    coordinates =     {
+        latitude = "37.771851";
+        longitude = "-122.433937";
+    };
+    "display_phone" = "(415) 896-4172";
+    id = "ZD5-5Gu44WrcsYtw7qMgiw";
+    "image_url" = "https://s3-media3.fl.yelpcdn.com/bphoto/SWY_wPxAGhHBPur7kxATIw/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "700 Haight St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "700 Haight St",
+            "San Francisco, CA 94117"
+        );
+        state = CA;
+        "zip_code" = 94117;
+    };
+    name = Palmyra;
+    phone = "+14158964172";
+    price = "$";
+    rating = 4;
+    "review_count" = 875;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/palmyra-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "berber-san-francisco-4";
+    categories =     (
+                {
+            alias = mediterranean;
+            title = Mediterranean;
+        },
+                {
+            alias = moroccan;
+            title = Moroccan;
+        },
+                {
+            alias = lounges;
+            title = Lounges;
+        }
+    );
+    coordinates =     {
+        latitude = "37.79611886";
+        longitude = "-122.42216912";
+    };
+    "display_phone" = "(415) 800-7767";
+    id = "9BxwybESMtcZsXBO0K-axA";
+    "image_url" = "https://s3-media3.fl.yelpcdn.com/bphoto/nL6kgSzEbconRqr9XeAwlQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "1516 Broadway";
+        address2 = "<null>";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "1516 Broadway",
+            "San Francisco, CA 94109"
+        );
+        state = CA;
+        "zip_code" = 94109;
+    };
+    name = Berber;
+    phone = "+14158007767";
+    price = "$$";
+    rating = "4.5";
+    "review_count" = 249;
+    transactions =     (
+        delivery,
+        pickup,
+        "restaurant_reservation"
+    );
+    url = "https://www.yelp.com/biz/berber-san-francisco-4?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "frjtz-san-francisco-2";
+    categories =     (
+                {
+            alias = waffles;
+            title = Waffles;
+        },
+                {
+            alias = "breakfast_brunch";
+            title = "Breakfast & Brunch";
+        },
+                {
+            alias = burgers;
+            title = Burgers;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7768879";
+        longitude = "-122.4027068";
+    };
+    "display_phone" = "(415) 559-2452";
+    id = "-JfdMfMWWea5UCc8ylBG1A";
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/BDBhWDOjAkDTWjdGVs5rPw/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "60 Morris St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "60 Morris St",
+            "San Francisco, CA 94110"
+        );
+        state = CA;
+        "zip_code" = 94110;
+    };
+    name = Frjtz;
+    phone = "+14155592452";
+    price = "$$";
+    rating = "3.5";
+    "review_count" = 1272;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/frjtz-san-francisco-2?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "golden-kim-tar-san-francisco";
+    categories =     (
+                {
+            alias = chinese;
+            title = Chinese;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7818482";
+        longitude = "-122.4170559";
+    };
+    "display_phone" = "(415) 346-8889";
+    id = ZajCfjeJaHdakadUMYT9Dw;
+    "image_url" = "https://s3-media3.fl.yelpcdn.com/bphoto/aUzE4Ae0NKjWjeXrDSiWbg/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "434 Larkin St";
+        address2 = "<null>";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "434 Larkin St",
+            "San Francisco, CA 94102"
+        );
+        state = CA;
+        "zip_code" = 94102;
+    };
+    name = "Golden Kim Tar";
+    phone = "+14153468889";
+    price = "$";
+    rating = "3.5";
+    "review_count" = 300;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/golden-kim-tar-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "cheers-on-demand-san-francisco-5";
+    categories =     (
+                {
+            alias = "beer_and_wine";
+            title = "Beer, Wine & Spirits";
+        }
+    );
+    coordinates =     {
+        latitude = "37.7773321823714";
+        longitude = "-122.431544454087";
+    };
+    "display_phone" = "(415) 885-2898";
+    id = M5xcWgfoGtvYUaYysujWdA;
+    "image_url" = "https://s3-media1.fl.yelpcdn.com/bphoto/TFVPn5P8KBRDQL2odjq61g/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "867 Fillmore St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "867 Fillmore St",
+            "San Francisco, CA 94117"
+        );
+        state = CA;
+        "zip_code" = 94117;
+    };
+    name = "Cheers On Demand";
+    phone = "+14158852898";
+    price = "$";
+    rating = "4.5";
+    "review_count" = 67;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/cheers-on-demand-san-francisco-5?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "clay-oven-on-haight-san-francisco-4";
+    categories =     (
+                {
+            alias = indpak;
+            title = Indian;
+        },
+                {
+            alias = bars;
+            title = Bars;
+        }
+    );
+    coordinates =     {
+        latitude = "37.771699";
+        longitude = "-122.430537";
+    };
+    "display_phone" = "(415) 255-2000";
+    id = H4V9QmbKSoWjENoCQnB6UA;
+    "image_url" = "https://s3-media3.fl.yelpcdn.com/bphoto/_Qhp9be33267ZDu4Xm4aag/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "233 Fillmore St";
+        address2 = "<null>";
+        address3 = "<null>";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "233 Fillmore St",
+            "San Francisco, CA 94117"
+        );
+        state = CA;
+        "zip_code" = 94117;
+    };
+    name = "Clay Oven on Haight";
+    phone = "+14152552000";
+    rating = 3;
+    "review_count" = 6;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/clay-oven-on-haight-san-francisco-4?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "jasmine-tea-house-san-francisco";
+    categories =     (
+                {
+            alias = chinese;
+            title = Chinese;
+        }
+    );
+    coordinates =     {
+        latitude = "37.744579";
+        longitude = "-122.420115";
+    };
+    "display_phone" = "(415) 826-6288";
+    id = cAVua5M0p2ScClxfcK25lg;
+    "image_url" = "https://s3-media4.fl.yelpcdn.com/bphoto/4k5rCbMMvhyRrLUF5s_DLQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "3259 Mission St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "3259 Mission St",
+            "San Francisco, CA 94110"
+        );
+        state = CA;
+        "zip_code" = 94110;
+    };
+    name = "Jasmine Tea House";
+    phone = "+14158266288";
+    price = "$$";
+    rating = "3.5";
+    "review_count" = 549;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/jasmine-tea-house-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "maykadeh-san-francisco";
+    categories =     (
+                {
+            alias = mideastern;
+            title = "Middle Eastern";
+        },
+                {
+            alias = persian;
+            title = "Persian/Iranian";
+        }
+    );
+    coordinates =     {
+        latitude = "37.80002";
+        longitude = "-122.40714";
+    };
+    "display_phone" = "(415) 362-8286";
+    id = OpBTLNaGnGcn8DRsLcEfQQ;
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/HEuTyVMxN-5qj86LO2iVlQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "470 Green St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "470 Green St",
+            "San Francisco, CA 94133"
+        );
+        state = CA;
+        "zip_code" = 94133;
+    };
+    name = Maykadeh;
+    phone = "+14153628286";
+    price = "$$";
+    rating = 4;
+    "review_count" = 865;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/maykadeh-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "newa-san-francisco-4";
+    categories =     (
+                {
+            alias = indpak;
+            title = Indian;
+        },
+                {
+            alias = himalayan;
+            title = "Himalayan/Nepalese";
+        },
+                {
+            alias = halal;
+            title = Halal;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7847215";
+        longitude = "-122.4130263";
+    };
+    "display_phone" = "(415) 447-3876";
+    id = 9jW6WTeK3BrXuZKvHyqrsA;
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/xkdSkGRvgcWoGPQp7lnHig/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "407 Ellis St";
+        address2 = "";
+        address3 = "<null>";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "407 Ellis St",
+            "San Francisco, CA 94102"
+        );
+        state = CA;
+        "zip_code" = 94102;
+    };
+    name = Newa;
+    phone = "+14154473876";
+    price = "$$";
+    rating = 4;
+    "review_count" = 204;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/newa-san-francisco-4?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "jade-cafe-san-francisco-2";
+    categories =     (
+                {
+            alias = chinese;
+            title = Chinese;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7657898";
+        longitude = "-122.4107051";
+    };
+    "display_phone" = "(415) 552-3899";
+    id = "-BWzndBhl6FG7oW3F-Zemg";
+    "image_url" = "https://s3-media4.fl.yelpcdn.com/bphoto/O86oKg80eXVAi3jrFbM6Kg/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "1688 Bryant St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "1688 Bryant St",
+            "San Francisco, CA 94103"
+        );
+        state = CA;
+        "zip_code" = 94103;
+    };
+    name = "Jade Cafe";
+    phone = "+14155523899";
+    price = "$$";
+    rating = 3;
+    "review_count" = 296;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/jade-cafe-san-francisco-2?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "serranos-pizza-san-francisco-2";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        },
+                {
+            alias = italian;
+            title = Italian;
+        },
+                {
+            alias = salad;
+            title = Salad;
+        }
+    );
+    coordinates =     {
+        latitude = "37.75714";
+        longitude = "-122.42051";
+    };
+    "display_phone" = "(415) 695-1615";
+    id = "P-PhLMdBTZSPC4Z_IS3i0w";
+    "image_url" = "https://s3-media1.fl.yelpcdn.com/bphoto/jDRgUcSQJM9EzRw3aYz6_Q/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "3274 21st St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "3274 21st St",
+            "San Francisco, CA 94110"
+        );
+        state = CA;
+        "zip_code" = 94110;
+    };
+    name = "Serrano's Pizza";
+    phone = "+14156951615";
+    price = "$";
+    rating = "3.5";
+    "review_count" = 617;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/serranos-pizza-san-francisco-2?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "deja-vu-pizza-and-pasta-san-francisco";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        },
+                {
+            alias = italian;
+            title = Italian;
+        }
+    );
+    coordinates =     {
+        latitude = "37.76449";
+        longitude = "-122.42471";
+    };
+    "display_phone" = "(415) 255-1600";
+    id = "5-B4VF38j-cba9rFtzcmFw";
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/lsFmqfixFzRIyUhyZGeZjQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "3227 16th St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "3227 16th St",
+            "San Francisco, CA 94103"
+        );
+        state = CA;
+        "zip_code" = 94103;
+    };
+    name = "Deja Vu Pizza and Pasta";
+    phone = "+14152551600";
+    price = "$";
+    rating = "3.5";
+    "review_count" = 399;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/deja-vu-pizza-and-pasta-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "red-jade-san-francisco";
+    categories =     (
+                {
+            alias = chinese;
+            title = Chinese;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7668495178223";
+        longitude = "-122.428527832031";
+    };
+    "display_phone" = "(415) 621-3020";
+    id = "0w6dNMrpBQFLxhVYqx_J5Q";
+    "image_url" = "https://s3-media4.fl.yelpcdn.com/bphoto/HUme4aT3O6BOOVL5JFo4nA/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "245 Church St";
+        address2 = "<null>";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "245 Church St",
+            "San Francisco, CA 94114"
+        );
+        state = CA;
+        "zip_code" = 94114;
+    };
+    name = "Red Jade";
+    phone = "+14156213020";
+    price = "$$";
+    rating = "3.5";
+    "review_count" = 752;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/red-jade-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "primo-pizza-san-francisco-4";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        }
+    );
+    coordinates =     {
+        latitude = "37.77956";
+        longitude = "-122.43846";
+    };
+    "display_phone" = "(415) 359-9300";
+    id = Z7EtdtEXrmlMWPYNzJ6u5g;
+    "image_url" = "https://s3-media1.fl.yelpcdn.com/bphoto/hggbqKeEhfAHniO2CWeRKA/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "1064 Divisadero St";
+        address2 = "<null>";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "1064 Divisadero St",
+            "San Francisco, CA 94115"
+        );
+        state = CA;
+        "zip_code" = 94115;
+    };
+    name = "Primo Pizza";
+    phone = "+14153599300";
+    price = "$";
+    rating = 3;
+    "review_count" = 128;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/primo-pizza-san-francisco-4?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "north-beach-pizza-san-francisco-6";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        }
+    );
+    coordinates =     {
+        latitude = "37.80047";
+        longitude = "-122.40731";
+    };
+    "display_phone" = "(415) 433-2444";
+    id = "AdGVHby-rwevZ0kzUmmwUg";
+    "image_url" = "https://s3-media1.fl.yelpcdn.com/bphoto/JoJcZRHs78uK0gWwsPFMwQ/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "1462 Grant Ave";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "1462 Grant Ave",
+            "San Francisco, CA 94133"
+        );
+        state = CA;
+        "zip_code" = 94133;
+    };
+    name = "North Beach Pizza";
+    phone = "+14154332444";
+    price = "$$";
+    rating = 3;
+    "review_count" = 546;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/north-beach-pizza-san-francisco-6?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "royal-indian-cuisine-on-fillmore-san-francisco";
+    categories =     (
+                {
+            alias = indpak;
+            title = Indian;
+        },
+                {
+            alias = himalayan;
+            title = "Himalayan/Nepalese";
+        }
+    );
+    coordinates =     {
+        latitude = "37.78582";
+        longitude = "-122.43301";
+    };
+    "display_phone" = "(415) 567-7789";
+    id = "8-zW9T7u9L-TDVfJyLMOZw";
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/0a7_sR6jJksMomKIsGQPTg/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "1740 Fillmore St";
+        address2 = "<null>";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "1740 Fillmore St",
+            "San Francisco, CA 94115"
+        );
+        state = CA;
+        "zip_code" = 94115;
+    };
+    name = "Royal Indian Cuisine on Fillmore";
+    phone = "+14155677789";
+    price = "$$";
+    rating = 4;
+    "review_count" = 281;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/royal-indian-cuisine-on-fillmore-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "makli-restaurant-san-francisco";
+    categories =     (
+                {
+            alias = chinese;
+            title = Chinese;
+        }
+    );
+    coordinates =     {
+        latitude = "37.7645336171417";
+        longitude = "-122.431062050997";
+    };
+    "display_phone" = "(415) 863-9128";
+    id = iwOmbrmxyMNwM9s4Y1R2Bw;
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/4K834PaolSIx_MHurjjMqw/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "290 Sanchez St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "290 Sanchez St",
+            "San Francisco, CA 94114"
+        );
+        state = CA;
+        "zip_code" = 94114;
+    };
+    name = "Makli Restaurant";
+    phone = "+14158639128";
+    price = "$$";
+    rating = "3.5";
+    "review_count" = 239;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/makli-restaurant-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "the-slice-on-14th-street-san-francisco";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        }
+    );
+    coordinates =     {
+        latitude = "37.76756";
+        longitude = "-122.42972";
+    };
+    "display_phone" = "(415) 431-1722";
+    id = "LGxZxA-aHxheqFhJ2NAh6Q";
+    "image_url" = "https://s3-media1.fl.yelpcdn.com/bphoto/L5wZf1kk9j4wFetKmKXJaw/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "719 14th St";
+        address2 = "";
+        address3 = "";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "719 14th St",
+            "San Francisco, CA 94114"
+        );
+        state = CA;
+        "zip_code" = 94114;
+    };
+    name = "The Slice On-14th Street";
+    phone = "+14154311722";
+    price = "$";
+    rating = 3;
+    "review_count" = 180;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/the-slice-on-14th-street-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+},
+{
+    alias = "hayes-pizza-san-francisco";
+    categories =     (
+                {
+            alias = pizza;
+            title = Pizza;
+        },
+                {
+            alias = salad;
+            title = Salad;
+        },
+                {
+            alias = sandwiches;
+            title = Sandwiches;
+        }
+    );
+    coordinates =     {
+        latitude = "37.773201";
+        longitude = "-122.450532";
+    };
+    "display_phone" = "(415) 742-5234";
+    id = "YS1CoGy0D1Eu0YM7N_3TIg";
+    "image_url" = "https://s3-media2.fl.yelpcdn.com/bphoto/hZ3PUg6S0rLcKdMe1tthmw/o.jpg";
+    "is_closed" = 0;
+    location =     {
+        address1 = "2077 Hayes St";
+        address2 = "";
+        address3 = "<null>";
+        city = "San Francisco";
+        country = US;
+        "display_address" =         (
+            "2077 Hayes St",
+            "San Francisco, CA 94117"
+        );
+        state = CA;
+        "zip_code" = 94117;
+    };
+    name = "Hayes Pizza";
+    phone = "+14157425234";
+    price = "$$";
+    rating = "4.5";
+    "review_count" = 176;
+    transactions =     (
+        delivery,
+        pickup
+    );
+    url = "https://www.yelp.com/biz/hayes-pizza-san-francisco?adjust_creative=ZFGueaQ4T_xo3uirkn4M9Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_transactions_search_delivery&utm_source=ZFGueaQ4T_xo3uirkn4M9Q";
+}
+)
+, "total": 80]
